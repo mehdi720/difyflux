@@ -1,35 +1,30 @@
 const translation = {
   common: {
     welcome: '欢迎使用',
-    appUnavailable: 'App is unavailable',
-    appUnkonwError: 'App is unavailable',
+    appUnavailable: '应用不可用',
+    appUnkonwError: '应用不可用',
   },
   chat: {
-    newChat: 'New chat',
-    newChatDefaultName: 'New conversation',
-    openingStatementTitle: 'Opening statement',
+    newChat: '新对话',
+    newChatDefaultName: '新的对话',
+    openingStatementTitle: '对话开场白',
     powerBy: 'Powered by',
-    prompt: 'Prompt',
-    privatePromptConfigTitle: 'Conversation settings',
-    publicPromptConfigTitle: 'Initial Prompt',
-    configStatusDes: 'Before start, you can modify conversation settings',
-    configDisabled:
-      'Previous session settings have been used for this session.',
+    prompt: '提示词',
+    privatePromptConfigTitle: '对话设置',
+    publicPromptConfigTitle: '对话前提示词',
+    configStatusDes: '开始前，您可以修改对话设置',
+    configDisabled: '此次会话已使用上次会话表单',
     startChat: '开始对话',
-    privacyPolicyLeft:
-      'Please read the ',
-    privacyPolicyMiddle:
-      'privacy policy',
-    privacyPolicyRight:
-      ' provided by the app developer.',
+    privacyPolicyLeft: '请阅读由该应用开发者提供的',
+    privacyPolicyMiddle: '隐私政策',
+    privacyPolicyRight: '。',
   },
   errorMessage: {
-    valueOfVarRequired: 'Variables value can not be empty',
-    waitForResponse:
-      'Please wait for the response to the previous message to complete.',
+    valueOfVarRequired: '变量值必填',
+    waitForResponse: '请等待上条信息响应完成',
   },
   variableTable: {
-    optional: 'Optional',
+    optional: '可选',
   },
 }
 
