@@ -381,7 +381,7 @@ const Welcome: FC<IWelcomeProps> = ({
               : <div>
               </div>}
             <a className='flex items-center pr-3 space-x-3' href="https://gpt.yuychat.cn" target="_blank">
-              <span className='uppercase'>{t('app.chat.powerBy')}</span>
+              <img src="/yangyang.png" alt="Powered by" className="h-5" />
               <FootLogo />
             </a>
           </div>
